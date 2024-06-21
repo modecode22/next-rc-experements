@@ -31,6 +31,8 @@ export default function Home() {
         <SvgConverter onAddIcon={handleAddIcon} />
       </header>
       <main className="p-6 flex gap-4 flex-wrap">
+
+        
         {icons.map((icon, index) => (
           <section
             key={index}
